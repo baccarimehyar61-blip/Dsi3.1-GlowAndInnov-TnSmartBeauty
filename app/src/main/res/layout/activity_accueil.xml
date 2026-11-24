@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✿ Tunisia Smart Beauty"
+            android:textColor="@color/rose"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBonjour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif"
+            android:text="Bienvenue"
+            android:textColor="@color/ink"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/ink"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/ink"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/ink"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnSalons"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:text="Voir nos salons  →"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/rose"
+            app:cornerRadius="26dp" />
+
+        <Button
+            android:id="@+id/btnDeconnexion"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:text="Déconnexion"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/rose_soft"
+            app:cornerRadius="26dp" />
+    </LinearLayout>
+</LinearLayout>
