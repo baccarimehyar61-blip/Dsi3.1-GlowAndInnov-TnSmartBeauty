@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Autorise les connexions HTTP (sans HTTPS) vers le backend Spring Boot en développement -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
